@@ -8,21 +8,24 @@ const About = () => {
       id: 1,
       name: "John Doe",
       role: "CEO & Founder",
-      image: "https://via.placeholder.com/150?text=John",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPaVbc9TBCVChqP9PREdHqDzgtEsU8HGuaPg&s",
       description: "Visionary leader with 10+ years in ecommerce",
     },
     {
       id: 2,
       name: "Jane Smith",
       role: "CTO",
-      image: "https://via.placeholder.com/150?text=Jane",
+      image:
+        "https://imageio.forbes.com/i-forbesimg/media/lists/teams/real-madrid_416x416.jpg?format=jpg",
       description: "Tech expert specializing in React and Node.js",
     },
     {
       id: 3,
-      name: "Mike Johnson",
-      role: "Product Manager",
-      image: "https://via.placeholder.com/150?text=Mike",
+      name: "Bahlil Lahadalia",
+      role: "Ketum",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEdsMcA2h_-A0YmixH6aRlzE_qqxtqjtCdAQ&s",
       description: "Passionate about creating amazing user experiences",
     },
   ];
