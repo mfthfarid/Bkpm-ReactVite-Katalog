@@ -6,24 +6,26 @@ const About = () => {
   const teamMembers = [
     {
       id: 1,
-      name: "John Doe",
-      role: "CEO & Founder",
-      image: "https://via.placeholder.com/150?text=John",
-      description: "Visionary leader with 10+ years in ecommerce",
+      name: "2",
+      role: "Real Madrid",
+      image:
+        "https://imageio.forbes.com/i-forbesimg/media/lists/teams/real-madrid_416x416.jpg?format=jpg",
+      // description: "Tech expert specializing in React and Node.js",
     },
     {
       id: 2,
-      name: "Jane Smith",
-      role: "CTO",
-      image: "https://via.placeholder.com/150?text=Jane",
-      description: "Tech expert specializing in React and Node.js",
+      name: "Bahlil Lahadalia",
+      role: "Ketum",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEdsMcA2h_-A0YmixH6aRlzE_qqxtqjtCdAQ&s",
+      // description: "Passionate about creating amazing user experiences",
     },
     {
       id: 3,
-      name: "Mike Johnson",
-      role: "Product Manager",
-      image: "https://via.placeholder.com/150?text=Mike",
-      description: "Passionate about creating amazing user experiences",
+      name: "1",
+      role: "Barcelona",
+      image: "https://i.ebayimg.com/images/g/M9IAAOSw~eVlZ7T1/s-l400.jpg",
+      // description: "Visionary leader with 10+ years in ecommerce",
     },
   ];
 
@@ -88,11 +90,7 @@ const About = () => {
                 <div className="member-info">
                   <h3>{member.name}</h3>
                   <p className="member-role">{member.role}</p>
-                  <p
-                    className="member
-description">
-                    {member.description}
-                  </p>
+                  <p className="member-description">{member.description}</p>
                 </div>
               </div>
             ))}
